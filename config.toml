@@ -1,0 +1,47 @@
+baseurl= "https://wahyulangit.github.io/realestate/"
+languageCode= "en-us"
+title= "Real Estate"
+
+
+contentdir= "content"
+imagesdir= "images"
+layoutdir= "layouts"
+publishdir= "public"
+
+[permalinks]
+  	posts =  "/:year/:slug/"
+
+[params]
+	name = "Wahyu Langit"
+	description = "The best buy real estate investment."
+	bio = "Apart - Hotel - Property - Real Estate"
+	# Enter optionally your twitter account
+	twitter = "wahyu_langit"
+	# Disable comments by leaving disqusShortname empty
+	disqusShortname = "realestatewebid"
+	# Enter your tracking code to enable Google Analytics
+	googleAnalytics = "UA-62998900-3" 
+	enableRSS = true
+	keywords = "apart, real, estate, hotel, apart hotel, real estate"
+	
+
+	# The variables below are optionally too and can be used to
+	# translate or customize each string of the theme.
+
+	# Navigation links
+	home = ""
+	about = ""
+	apart = ""
+	subscribe = ""
+	# Pagination links
+	olderPosts = "Prev"
+	newerPosts = "Next"
+	readMore = ""
+	copyright = "Special thank to [Github](//github.com/wahyulangit), [Go](//golang.org), [Hugo](//hugo.io), and [Nick](//github.com/nickbalestra). <br /> © 2015 Real Estate."
+	# Sharing options and author information in posts
+	aboutAuthor = "I'm an enthusiastic to the best buy real estate investment."
+	tweet = ""
+	share = ""
+	# 404 page
+	title404 = ""
+	subtitle404 = ""
